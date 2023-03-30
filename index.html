@@ -1,0 +1,85 @@
+<html>
+  <head>
+	  <link rel="stylesheet" href="style.css"/>
+
+
+  </head>
+
+  
+<header>
+      <div class="header1">
+      Zach, here are a bunch of classes!
+    </div>
+    
+    <div class="header2">
+      And a picture of Hilde
+    </div>
+    
+    <br>
+ 
+</header>
+<script>
+    function Tabs(cat, Category) {
+      var i, tabcontent, tablinks;
+
+
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+        tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+
+      document.getElementById(Category).style.display = "block";
+      cat.currentTarget.className += " active";
+    }
+  
+  </script>
+<body>
+  
+<div class="tab">
+  <button class="Guardian" onclick="Tabs(event, 'Guardian')">Guardian</button>
+  <button class="Seeker" onclick="Tabs(event, 'Seeker')">Seeker</button>
+  <button class="Mystic" onclick="Tabs(event, 'Mystic')">Mystic</button>
+  <button class="Rogue" onclick="Tabs(event, 'Rogue')">Rogue</button>
+  <button class="Survivor" onclick="Tabs(event, 'Survivor')">Survivor</button>
+  <button class="Hilde" onclick="Tabs(event, 'Hilde')">Hilde</button>
+</div>
+
+
+<div id="Guardian" class="tabcontent">
+    Guardians like punching stuff.
+</div>
+
+<div id="Seeker" class="tabcontent">
+  Seekers like finding all the clues.
+</div>
+
+<div id="Mystic" class="tabcontent">
+  Mystics are good all arounders but somewhat draw dependant regarding what they'd like to focus on.
+</div>
+
+<div id="Rogue" class="tabcontent">
+    Rogues are decent all arounders but do stuff their own way.
+</div>
+
+<div id="Survivor" class="tabcontent">
+  Survivors are going to fail their way to victory.
+</div>
+  
+  <div id="Hilde" class="tabcontent">
+    <div class="header3">
+      Hilde  
+    </div>
+      
+      
+<img src="images/Hilde.jpg"alt="Best dog">
+     </div>
+  
+  </body>
+  
+  

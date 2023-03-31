@@ -18,6 +18,18 @@
   background-color: rgb(219, 55, 55);
 }
 
+.gatorpic {
+  width: 30%;
+  height: auto;
+}
+
+.imagebox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -51,11 +63,12 @@
   padding: 6px 12px;
   border: 1px solid blue;
   border-top: none;
+  text-align: center;
 }
 
 body {
   margin: 5%;
-  background-color: #E6F1FF
+  background-color: #E6F1FF;
   font-family: Arial, sans-serif; 
 }
 

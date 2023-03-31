@@ -1,3 +1,23 @@
+.tab .Guardian {
+  background-color: rgb(72, 111, 227);
+}
+
+.tab .Seeker {
+  background-color: rgb(225, 177, 64);
+}
+
+.tab .Mystic {
+  background-color: rgb(136, 83, 193);
+}
+
+.tab .Rogue {
+  background-color: rgb(76, 162, 64);
+}
+
+.tab .Survivor {
+  background-color: rgb(219, 55, 55);
+}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -143,9 +163,7 @@ body {
   
 }
 
-.Guardian {
-  background-color: blue;
-}
+
 
 
 
